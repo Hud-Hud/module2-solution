@@ -1,0 +1,169 @@
+h1 {
+	 /* background-color: skyblue;*/
+	  text-align: center;
+	  font-size: 200%;
+
+  font-size: 130%;
+}
+body {
+  background-color: lightgray;
+  padding-right: 1cm;
+  padding-left: 1cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+}
+#box1, #box2, #box3 {
+  
+  /*padding: 30px;*/
+  border: 5px solid black;
+  width: 30%;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 2.5%;
+  margin-right: 2.5%
+  overflow: auto;
+
+
+}
+
+#box1,#box2 {  
+  float:left;
+}
+ 
+#box3 {
+  background-color: lightgreen;
+  float:left;
+  clear:none;
+
+}
+#box2 {
+	background-color: lightyellow;
+}
+#box1{
+	background-color: lightpink;
+	font-weight: : bold;
+}
+
+
+#content {
+  /*background-color: #90EE90; /* green */*/
+  font-weight: : bold;
+}
+
+/*div + div {
+    margin-left: 5%;
+}*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.category {
+border-style:solid;
+border-color:#287EC7;
+text-align: center;
+margin-left: 80%;
+background-color: white;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+
+
+/*For Tablet view*/
+#tablet-title {
+
+text-align: center;
+font-size: 140%;
+margin-top: 8cm;
+margin-bottom: 1cm;
+margin-left: auto;
+font-weight: bold;
+
+}
+
+#box1-tablet, #box2-tablet, #box3-tablet {
+  
+  /*padding: 30px;*/
+  border: 5px solid black;
+  
+  height: 200px;
+ /* margin-top: 1px;*/
+  overflow: auto;
+
+
+}
+
+#box1-tablet,#box2-tablet {  
+  float:left;
+  width: 45%;
+   margin-left: 2.5%;
+  margin-right: 2.5%
+}
+ 
+#box3-tablet {
+  background-color: lightgreen;
+  
+  width: 95%;
+  margin-top: 2%;
+  float: right;
+    margin-left: 2.5%;
+  margin-right: 2.5%
+
+}
+#box2-tablet {
+	background-color: lightyellow;
+}
+#box1-tablet{
+	background-color: lightpink;
+	font-weight: : bold;
+}
+
+
+
+/*For Mobile view*/
+
+#mobile-title {
+
+text-align: center;
+font-size: 140%;
+margin-top: 15cm;
+margin-left: auto;
+font-weight: bold;
+
+}
+
+#box1-mobile, #box2-mobile, #box3-mobile {
+  
+  /*padding: 30px;*/
+  border: 5px solid black;
+  
+  height: 200px;
+  margin-top: 50px;
+  overflow: auto;
+  width: 95%;
+  float:left;
+  margin-left: 2.5%;
+  margin-right: 2.5%
+
+
+
+
+}
+
+ 
+#box3-mobile {
+  background-color: lightgreen;
+  
+  }
+
+#box2-mobile {
+	background-color: lightyellow;
+}
+#box1-mobile{
+	background-color: lightpink;
+	
+}
+
